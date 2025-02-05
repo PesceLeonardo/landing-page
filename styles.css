@@ -209,3 +209,44 @@ blockquote cite a {
     display: none;
 }
 
+
+
+/* Properties for the contact section */
+
+.contact-me {
+    margin: 0 auto 96px;
+    padding: 32px 144px;
+    
+    width: 900px;
+
+    color: white;
+    background: linear-gradient(to bottom right, #82b2ff, #1063e7);
+    border-radius: 16px;
+
+    display: flex;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.contact-me div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.contact-me button {
+    padding: 8px 16px;
+
+    width: 200px;
+
+    border: 2px solid white;
+    border-radius: 8px;
+
+    font-size: 16px;
+    color: white;
+    background-color: #3882F6;
+
+    align-self: center;
+}
+
