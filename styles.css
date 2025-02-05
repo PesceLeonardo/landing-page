@@ -142,11 +142,13 @@ figure a {
     align-items: center;
 }
 
+/* Properties for image gradient border */
+
 .gradient {
     height: 208px;
     width: 208px;
     background: linear-gradient(to bottom right, rgb(200, 200, 200), rgb(50, 50, 50));
-    border-radius: 32px;
+    border-radius: 35px;
 
     display: flex;
     justify-content: center;
@@ -154,6 +156,8 @@ figure a {
 
     transition: all 0.1s ease-in-out;
 }
+
+/* Properties for image resizing */
 
 .gradient:hover {
     transform: scale(1.1);
@@ -163,7 +167,45 @@ figure a {
     border-radius: 32px;
 }
 
+/* Properties for image captions */
+
 .project figcaption {
     width: 250px;
-    flex: 0 0 250px;
+    flex: 0 0 150px;
 }
+
+
+
+/* Properties for the quote section */
+
+blockquote {
+    margin: 0 auto 96px;
+    padding: 24px 64px;
+
+    width: 800px;
+
+    background-color: #E5E7EB;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+blockquote p {
+    font-size: 16px;
+    font-style: italic;
+}
+
+blockquote cite {
+    text-align: right;
+}
+
+blockquote cite a {
+    text-decoration: none;
+    color: black;
+}
+
+#father-quote {
+    display: none;
+}
+
