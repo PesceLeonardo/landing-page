@@ -250,3 +250,23 @@ blockquote cite a {
     align-self: center;
 }
 
+.contact-me button:hover {
+    background-color: #2374f6;
+}
+
+/* Properties for the footer */
+
+footer {
+    padding: 16px;
+    width: 1200px;
+
+    color: white;
+    background-color: #1F2937;
+
+    text-align: center;
+}
+
+footer span {
+    font-style: italic;
+    text-decoration: line-through;
+}
