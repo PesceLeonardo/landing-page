@@ -86,4 +86,5 @@ nav a {
 
 .right {
     flex: 0 0 auto;
+    border-radius: 32px;
 }
