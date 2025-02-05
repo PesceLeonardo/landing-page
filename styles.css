@@ -13,6 +13,10 @@ body {
     align-items: center;
 }
 
+
+
+/* Properties for page upper quarter */
+
 .upper {
     padding: 16px 128px 96px;
 
@@ -23,6 +27,8 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
+
+/* Properties for page header */
 
 header {
     display: flex;
@@ -57,6 +63,8 @@ nav a {
     text-decoration: none;
 }
 
+/* Properties for page header title, description, and image */
+
 .upper .footer {
     display: flex;
 }
@@ -69,6 +77,7 @@ nav a {
 .left h1 {
     font-size: 64px;
     font-weight: 900;
+    letter-spacing: 2px;
 }
 
 .left p {
@@ -87,4 +96,74 @@ nav a {
 .right {
     flex: 0 0 auto;
     border-radius: 32px;
+}
+
+
+
+/* Properties for project section */
+
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.middle h2 {
+    margin: 80px 0 48px;
+    font-size: 48px;
+    font-weight: 1000;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+/* Properties for the images and their description */
+
+/* TODO: Check for any redundancy added by introducing <a> wrapper the images */
+
+.images {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 32px;
+}
+
+.project {
+    text-align: center;
+    font-style: italic;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+figure a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient {
+    height: 208px;
+    width: 208px;
+    background: linear-gradient(to bottom right, rgb(200, 200, 200), rgb(50, 50, 50));
+    border-radius: 32px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.gradient:hover {
+    transform: scale(1.1);
+}
+
+.project img {
+    border-radius: 32px;
+}
+
+.project figcaption {
+    width: 250px;
+    flex: 0 0 250px;
 }
